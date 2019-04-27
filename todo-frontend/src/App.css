@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  background-image:url("./bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.App{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.login{
+  width: 50%;
+}
+.login form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login form input{
+  color: lime;
+  background-color: white;
+  height: 30px;
+  width: 40%;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.login form input:last-child:hover{
+  color: white;
+  background-color: lime;
+}
+.text-field{
+  background-color: white;
+  height: 30px;
+  width: 80%;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.form-btn{
+  color: lime;
+  background-color: white;
+  height: 30px;
+  width: 20%;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.form-btn:hover{
+  background-color: lime;
+  color: white;
+}
+.item{
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.task{
+  padding: 10px;
+  font-family: 'Merienda One', cursive;
+  font-weight: normal;
+  font-size: 25px;
+}
+.btn-del,.btn-edit{
+  height: 36px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.btn-edit{
+  background-color: lightseagreen ;
+  margin-right: 5px;
+}
+.clearAll{
+  background-color: transparent;
+  color: red;
+  border:1px solid black;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.clearAll:hover{
+  background-color: red;
+  color: white;
+
+}
+.logout{
+  background-color: transparent;
+  color: red;
+  border:1px solid black;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.logout:hover
+{
+  background-color: red;
+  color: white;
+}
